@@ -64,3 +64,21 @@ phrase3 = "Why, you stuck-up half-witted scruffy-looking nerf herder."
 
 print(phrase3[::2])
 print(phrase3[::-2])
+
+print("Task #6")
+
+from datetime import date
+
+
+today = date.today()
+
+today = today.strftime("%Y,%B,%d")
+
+
+print(f"The date today is {today}")
+
+month = today[5:12]
+day = today[13:15]
+year = today[0:4]
+
+print("This is day", day, "of", month, "of the year", year)
