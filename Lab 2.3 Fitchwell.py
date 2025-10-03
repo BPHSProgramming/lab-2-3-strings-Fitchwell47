@@ -41,3 +41,26 @@ print(part1)
 print("Task #4")
 
 five_numbers = input("Please enter a 5 digit number?")
+
+num_str1 = five_numbers[0]
+num_str2 = five_numbers[1]
+num_str3 = five_numbers[2]
+num_str4 = five_numbers[3]
+num_str5 = five_numbers[4]
+
+num_int1 = int(num_str1)
+num_int2 = int(num_str2)
+num_int3 = int(num_str3)
+num_int4 = int(num_str4)
+num_int5 = int(num_str5)
+
+sum = num_int1 + num_int2 + num_int3 + num_int4 + num_int5
+
+print(num_str1, "+", num_str2, "+", num_str3, "+", num_str4, "+", num_str5, "=", sum)
+
+print("Task #5")
+
+phrase3 = "Why, you stuck-up half-witted scruffy-looking nerf herder."
+
+print(phrase3[::2])
+print(phrase3[::-2])
